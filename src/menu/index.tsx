@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "./App.css";
+import "../App.css";
 
-function App() {
+function Menu() {
   const [selectedItem, setSelectedItem] = useState(0);
   const [currentClass, setCurrentClass] = useState("");
 
@@ -39,5 +39,4 @@ function App() {
     </main>
   );
 }
-
-export default App;
+export default Menu;
